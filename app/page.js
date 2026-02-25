@@ -1,10 +1,10 @@
 function BookCard({ title, author }) {
   return (
     <div style={{
-      backgroundColor: "#977750",
+      backgroundColor: "#977550",
       padding: "10px",
       margin: "10px",
-      borderRadius: "20px"
+      borderRadius: "5px"
     }}>
       <h3>Title: {title}</h3>
       <p>Author: {author}</p>
@@ -15,9 +15,9 @@ function BookCard({ title, author }) {
 export default function Page() {
 
   const books = [
-    { title: "The vanisher", author: "F. rajith shetty" },
-    { title: "the seaa", author: "sundar" },
-    { title: "The firewall", author: "Harmanpreet" }
+    { title: "The Great Gatsby", author: "F. Scott Fitzgerald" },
+    { title: "1984", author: "George Orwell" },
+    { title: "To Kill a Mockingbird", author: "Harper Lee" }
   ];
 
   return (
