@@ -39,7 +39,7 @@ export default function PracticeProject() {
     <div
       style={{
         padding: "20px",
-        backgroundColor: theme === "light" ? "#e4dbdb" : "#222222",
+        backgroundColor: theme === "light" ? "#000000" : "#222222",
         color: theme === "light" ? "#160707" : "#ffffff",
       }}
     >
